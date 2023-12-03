@@ -28,12 +28,16 @@ namespace zadanka
         }
         public int ExstractNumbers(string text)
         {
-                string resStr;
-                Regex rx = new Regex(@"[1-9]|(one)|(two)|(three)|(four)|(five)|(six)|(seven)|(eight)|(nine)", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+            string resStr;
+            string regex = @"[1-9]|(one)|(two)|(three)|(four)|(five)|(six)|(seven)|(eight)|(nine)";
+            Regex leftRx = new Regex(regex);
+            Regex rightRx = new Regex(regex, RegexOptions.RightToLeft);
 
-                MatchCollection matches = rx.Matches(text);
-                resStr = convertToNum(matches.First().ToString()) + convertToNum(matches.Last().ToString());
-                return int.Parse(resStr);
+            Match matchRight = rightRx.Match(text);
+            Match matchLeft = leftRx.Match(text);
+
+            resStr = convertToNum(matchLeft.ToString()) + convertToNum(matchRight.ToString());
+            return int.Parse(resStr);
 
         }
 

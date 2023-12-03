@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{CF70F88C-4971-4AC6-8359-B627A0F0D9FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadanka", "zadanka\zadanka.csproj", "{80D2F061-E670-40B1-8C11-68EF3074EE4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF70F88C-4971-4AC6-8359-B627A0F0D9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF70F88C-4971-4AC6-8359-B627A0F0D9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF70F88C-4971-4AC6-8359-B627A0F0D9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF70F88C-4971-4AC6-8359-B627A0F0D9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D2F061-E670-40B1-8C11-68EF3074EE4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D2F061-E670-40B1-8C11-68EF3074EE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D2F061-E670-40B1-8C11-68EF3074EE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D2F061-E670-40B1-8C11-68EF3074EE4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB787A96-A2BF-467B-8D21-EF2688D18C88}
+	EndGlobalSection
+EndGlobal
